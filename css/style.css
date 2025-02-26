@@ -1,0 +1,215 @@
+body{
+    background-color: #f4f6f8;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    
+}
+ul{
+    flex-basis: 45%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 15px;
+}
+li{
+    margin-left: 10px;
+    font-size:medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    z-index: 2;
+    position: relative;
+}
+h4{
+    font-size:x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-top: 8px;
+    position: relative;
+    z-index: 4;
+    opacity: 100%;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+}
+.second{
+    flex-basis: 50%;
+    margin-top: 10px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+    height: 22px;
+    margin-top: 10px;
+}
+.button{
+    cursor: pointer;
+    color: antiquewhite;
+    background-color:transparent;
+}
+.button:hover{
+    background-color:white;
+    color:black;
+}
+form{
+    margin-left: 15px;
+    height: 22px;
+}
+input{
+    background-color: transparent;
+    color: antiquewhite;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/24-1626-ROBLYER-002_social-crop.jpg);
+    background-size: cover;
+    filter: contrast(100%) brightness(80%);
+    height: 800px;
+}
+main::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0,0,0,0.5);
+    z-index:-1;
+}
+.monitor{
+    color: white;
+    padding: 40px;
+    font-size:50px;
+    position: relative;
+    z-index: 2;
+}
+.butt{
+    background-color: rgb(222, 15, 15);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 0px;
+}
+.butt:hover{
+    background-color:white;
+    color:black;
+    text-decoration: underline;
+}
+.div{
+    position: relative;
+    background-color: rgb(255, 252, 252);
+    height: 30px;
+    width: 70%;
+    z-index: 2;
+    margin-left: 200px;
+    margin-top: -15px;
+    border-radius: 4px;
+    display: flex;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3)
+
+}
+span{
+    margin-left: 15px;
+    font-size: larger;
+}
+.res{
+    font-size: smaller;
+    margin-top: -10px;
+}
+.list{
+    padding-left: 150px;
+    padding-top: 5px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 700px;
+   
+    margin-top: 25px;
+}
+.fot{
+    flex-basis: 45%;
+    margin: 20px;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/24-1397-GARDEN-009.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+.pik{
+    flex-basis: 45%;
+    background-color: white;
+    padding:5px;
+    margin: 20px;
+}
+aside{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside div{
+    flex-basis: 25%;
+    border-bottom: solid black 1px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    
+}
+
+.visual{
+    padding: 25px;
+}
+.vibutt{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(222, 15, 15);
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.vibutt:hover{
+    background-color: rgb(152, 17, 17);
+    color: azure
+}
+h5{
+    color: white;
+    font-size: larger;
+    margin-top: 5px ;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.imag{
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.txt{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+}
+h2{
+    margin-top: -2px;
+}
